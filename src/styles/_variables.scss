@@ -1,0 +1,42 @@
+
+//https://www.uplabs.com/posts/gradients-template
+
+$orangeGradient: linear-gradient(45deg, #ffdf40, #ff8359);
+$blueGradient: linear-gradient(45deg, #59c2ff, #1270e3);
+$darkBlueGradient: linear-gradient(45deg, darken(#59c2ff, 10%), darken(#1270e3, 10%));
+$darkerBlueGradient: linear-gradient(45deg, darken(#59c2ff, 25%), darken(#1270e3, 25%));
+$redGradient: linear-gradient(45deg, #ff7c6e, #f5317f);
+$lightBlueGradient: linear-gradient(45deg, #15eded, #029cf5);
+$greenGradient: linear-gradient(45deg, #46eeaa, #2cbfc7);
+$darkGreenGradient: linear-gradient(45deg, darken(#46eeaa, 10%), darken(#2cbfc7, 10%));
+$darkerGreenGradient: linear-gradient(45deg, darken(#46eeaa, 25%), darken(#2cbfc7, 25%));
+$purpleGradient: linear-gradient(45deg, #5496ff, #8739e5);
+$lightGreenGradient: linear-gradient(45deg, #aff57a, #54d169);
+$pinkGradient: linear-gradient(45deg, #ff63de, #b122e5);
+
+$lightorange: #ffdf40;
+$orange: #F6B34D;
+$darkorange: #ff8359;
+
+$blue: #029cf5;
+$green: #5FDBB4;
+$offgreen: #2cbfc7;
+$pink: #ff63de;
+$red: #f5317f;
+$text: #999;
+$darktext: #363636;
+
+$orangetext: darken($orange, 25%);
+$bluetext: darken($blue, 25%);
+$greentext: darken($green, 25%);
+$redtext: darken($red, 25%);
+
+$grayBackground: rgb(242, 246, 249);
+
+// overrides
+
+$primary: $green;
+$secondary: $blue;
+$info: $blue;
+$danger: $red;
+$success: $green;

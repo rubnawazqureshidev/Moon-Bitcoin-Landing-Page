@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Fontawesome ========================
+$fa-font-path: "./fonts/fontawesome/webfonts";
+@import "fonts/fontawesome/scss/fontawesome.scss";
+@import "fonts/fontawesome/scss/solid.scss";
+
+@import "styles/_global";
