@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mooon-website"
+    }
+  },
+  "defaultProject": "mooon-website",
+  "cli": {
+    "analytics": false
+  }
 }
