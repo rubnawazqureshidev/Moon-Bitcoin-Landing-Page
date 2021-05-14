@@ -1,6 +1,11 @@
 .pt-100  {
     padding-top: 100px;
 }
+
+.pt-200 {
+    padding-top: 200px;
+}
+
 .pb-100  {
     padding-bottom: 100px;
 }
@@ -23,8 +28,55 @@
 }
 
 
-h1, h2 {
+h1, h2, h3, h4 {
     font-family: Touche;
     font-style: normal;
     font-weight: bold;
 }
+
+
+a {
+    color: #1cc7d0;
+}
+
+a:hover {
+    color: #19acb4;
+}
+
+#subscriberform { 
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+#subscriberform .subscriber-textfield {
+    border: 0.5px solid #222;
+    width: 100%;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    background: #232645;
+    box-shadow: 0px 30px 55px rgba(39, 77, 113, 0.05);
+    border-radius: 10px;    
+    padding: 20px;
+    color: #728495;
+    line-height: 19px;
+    font-size: 16px;
+}
+
+#subscriberform  .subscriber-btn {
+    background: linear-gradient(45deg, #0BCBBF 0%, #16B2E3 52.35%, #2882D6 100%);
+    border-radius: 14px;
+    padding: 24px 26px;
+    color: #FFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;   
+    border: none; 
+}
+
+#subscriberform  .subscriber-btn:hover {
+    cursor: pointer;
+    color: #f3f3f3;
+}
+
