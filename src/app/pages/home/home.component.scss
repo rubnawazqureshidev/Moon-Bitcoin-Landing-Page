@@ -1,6 +1,11 @@
 .pt-100  {
     padding-top: 100px;
 }
+
+.pt-200 {
+    padding-top: 200px;
+}
+
 .pb-100  {
     padding-bottom: 100px;
 }
@@ -27,4 +32,13 @@ h1, h2 {
     font-family: Touche;
     font-style: normal;
     font-weight: bold;
+}
+
+
+a {
+    color: #1cc7d0;
+}
+
+a:hover {
+    color: #19acb4;
 }
