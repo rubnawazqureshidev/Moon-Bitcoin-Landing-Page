@@ -1,26 +1,19 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { BrowserModule } from '@angular/platform-browser';
 import { HomeComponent } from './pages/home/home.component';
-import { HeaderComponent } from './components/header/header.component';
-import { HeroComponent } from './components/hero/hero.component';
-import { TrustedbyComponent } from './components/trustedby/trustedby.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { NgModule } from '@angular/core';
+import { SharedModule } from '@shared';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent,
-    HeroComponent,
-    TrustedbyComponent,
-    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

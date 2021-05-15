@@ -1,0 +1,11 @@
+header nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .navbar-item {
+      color: #728495;
+      background: transparent;
+      &:hover {
+        color: lighten(#728495, 10%);
+      }
+    }
+}
