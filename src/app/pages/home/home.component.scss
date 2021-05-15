@@ -29,7 +29,6 @@
 
 
 h1, h2, h3, h4 {
-    font-family: Touche;
     font-style: normal;
     font-weight: bold;
 }
@@ -43,7 +42,7 @@ a:hover {
     color: #19acb4;
 }
 
-#subscriberform { 
+#subscriberform {
     max-width: 500px;
     margin-top: 30px;
 }
@@ -56,7 +55,7 @@ a:hover {
     top: 0px;
     background: #232645;
     box-shadow: 0px 30px 55px rgba(39, 77, 113, 0.05);
-    border-radius: 10px;    
+    border-radius: 10px;
     padding: 20px;
     color: #728495;
     line-height: 19px;
@@ -71,12 +70,11 @@ a:hover {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 19px;   
-    border: none; 
+    line-height: 19px;
+    border: none;
 }
 
 #subscriberform  .subscriber-btn:hover {
     cursor: pointer;
     color: #f3f3f3;
 }
-
