@@ -4,10 +4,14 @@ import { ComponentsModule } from './components';
 
 
 @NgModule({
-  declarations: [  
+  declarations: [ 
+     
   ],
   imports: [
     CommonModule,
+    ComponentsModule
+  ],
+  exports: [
     ComponentsModule
   ]
 })

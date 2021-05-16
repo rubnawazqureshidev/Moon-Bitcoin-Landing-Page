@@ -5,17 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 
-import { HeaderComponent, HeroComponent, TrustedbyComponent, FooterComponent } from '@shared/components'
 import { SharedModule } from './shared';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    HeaderComponent,
-    HeroComponent,
-    TrustedbyComponent,
-    FooterComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
