@@ -11,3 +11,23 @@ body {
     background: rgb(10,14,43);
     background: linear-gradient(90deg, rgba(10,14,43,1) 0%, rgba(4,4,45,1) 0%, rgba(14,49,68,1) 29%, rgba(14,66,103,1) 92%);    
 }
+
+
+@media (min-width: 481px) and (max-width: 1067px) {
+
+    .is-horizontal-center-mobile {
+        text-align: center!important;
+    }
+
+    .is-horizontal-center-mobile .seperator {
+        margin: 0 auto;
+    }
+
+    .is-horizontal-center-mobile img {
+        margin: 0 auto;
+    }
+
+    .is-horizontal-center-mobile #subscriberform {
+        margin: 0 auto;
+    }
+}
