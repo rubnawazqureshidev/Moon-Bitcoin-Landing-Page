@@ -4,8 +4,8 @@ import { ComponentsModule } from './components';
 
 
 @NgModule({
-  declarations: [ 
-     
+  declarations: [  
+    
   ],
   imports: [
     CommonModule,
