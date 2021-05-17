@@ -7,7 +7,30 @@ $fa-font-path: "./fonts/fontawesome/webfonts";
 
 @import "styles/_global";
 
+@font-face {
+    font-family: "WorkSans";
+    src: local("WorkSans"), url('./assets/fonts/WorkSans Medium.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "WorkSansBold";
+    src: local("WorkSans"), url('./assets/fonts/WorkSans SemiBold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "WorkSansLight";
+    src: local("WorkSans"), url('./assets/fonts/WorkSans Light.ttf') format("truetype");
+}
+
 body {
     background: rgb(10,14,43);
-    background: linear-gradient(90deg, rgba(10,14,43,1) 0%, rgba(4,4,45,1) 0%, rgba(14,49,68,1) 29%, rgba(14,66,103,1) 92%);    
+    background: linear-gradient(90deg, rgba(10,14,43,1) 0%, rgba(4,4,45,1) 0%, rgba(14,49,68,1) 29%, rgba(14,66,103,1) 92%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'WorkSansBold';
+}
+
+div, p, a, li, span, label {
+  font-family: 'WorkSans';
 }
