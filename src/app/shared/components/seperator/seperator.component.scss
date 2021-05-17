@@ -3,10 +3,13 @@
   ##Screen = B/w 481px to 767px
 */
 
+.seperator {
+    width: 60px; height: 5px; background: linear-gradient(45deg, #009EF7 0%, #32EF9D 100%);
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
 
-    .is-horizontal-center-mobile img {
+   .seperator {
         margin: 0 auto;
     }
-
 }

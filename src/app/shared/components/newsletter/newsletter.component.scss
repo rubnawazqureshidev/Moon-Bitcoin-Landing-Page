@@ -1,28 +1,25 @@
-.hero .heading {    
-    font-family: Touche;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60px;   
-    color: #FFFFFF;   
-    line-height: 60px;
-    text-transform: capitalize;
+#newsletter {
+    padding-bottom: 100px;
 }
 
-.hero .paragraph {  
-    margin-top: 25px;
-    font-family: Touche;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    /* or 156% */
-    color: #728495;
+.newsletter-inner {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 }
 
-#subscriberform { 
-    padding-top: 150px; padding-bottom: 50px;    
+
+.seperator {
+    width: 60px; 
+    height: 5px; 
+    background: linear-gradient(45deg, #009EF7 0%, #32EF9D 100%);
+    margin: 10px auto;
+}
+
+#subscriberform {      
     max-width: 500px;
     margin-top: 30px;
+    margin: auto;
 }
 
 #subscriberform .subscriber-textfield {
@@ -57,19 +54,10 @@
     color: #f3f3f3;
 }
 
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
 @media (min-width: 481px) and (max-width: 767px) {
 
-    .is-horizontal-center-mobile img {
-        margin: 0 auto;
-    }
-
     #subscriberform {
+        text-align: center;
         margin: 0 auto;
-        text-align: center!important;
     }
 }

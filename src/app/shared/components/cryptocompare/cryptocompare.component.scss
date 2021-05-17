@@ -1,0 +1,31 @@
+.shadow {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+#crptocompare {
+    padding-top: 100px;
+}
+
+.seperator {
+    width: 60px; 
+    height: 5px; 
+    background: linear-gradient(45deg, #009EF7 0%, #32EF9D 100%);
+    margin: 10px auto;
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .is-horizontal-center-mobile {
+        text-align: center!important;
+    }
+
+    .is-horizontal-center-mobile img {
+        margin: 0 auto;
+    }
+}
