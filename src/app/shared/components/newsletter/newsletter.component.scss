@@ -54,9 +54,11 @@
     color: #f3f3f3;
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-
+@media only screen and (max-width: 768px) {
+ 
+  
     #subscriberform {
+        width: 90%;
         text-align: center;
         margin: 0 auto;
     }
