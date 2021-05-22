@@ -8,6 +8,10 @@ footer .widget {
     margin-top: 25px;
 }
 
+footer .widget h3 img {
+    display: none;
+}
+
 footer .widget ul {
     margin-top: 10px;
 }
@@ -42,6 +46,42 @@ footer .widget ul li a:hover {
 
     .is-horizontal-center-mobile img {
         margin: 0 auto;
-        // width: 70%;
+    }
+
+    footer .widget ul { 
+        display: none;
+    }
+
+    footer .widget h3 {
+        text-decoration: none!important;
+    }
+
+    footer .widget h3 img {
+        display: block;
+    }
+
+    footer .widget h3:hover {
+        cursor: pointer;
+    }
+
+    footer .widget:hover ul {
+        margin-left: 20px;
+        transition: all .5s ease-in-out;
+        display: block!important;
+        -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 2s; /* Firefox < 16 */
+         -ms-animation: fadein 2s; /* Internet Explorer */
+          -o-animation: fadein 2s; /* Opera < 12.1 */
+             animation: fadein 2s;     
+    }
+    
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+    
+    footer .column {
+        padding: 0rem 0.75rem!important
     }
 }
